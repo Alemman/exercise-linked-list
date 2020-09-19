@@ -5,6 +5,17 @@ import uaslp.enginering.labs.model.*;
         private Node front;
         private Node tail;
 
+        public class IteratorLinkedList{
+            private int index;
+
+            public boolean hasNext() {
+                return false;
+            }
+
+            public Student next() {
+                return null;
+            }
+        }
 
         public void add(Student student){
 
