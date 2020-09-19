@@ -1,7 +1,6 @@
 package uaslp.enginering.labs.list;
-import uaslp.enginering.labs.model.*;
 
-    public class LinkedList {
+public class LinkedList {
         private Node front;
         private Node tail;
 
