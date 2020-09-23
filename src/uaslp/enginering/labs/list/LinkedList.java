@@ -14,16 +14,30 @@ public class LinkedList {
 
     public class Iterator {
         private int index;
+        private Node list;
 
-
-
+        public Iterator(){
+            list = front;
+        }
         public boolean hasNext() {
-            return false;
+            return index < count;
         }
 
         public Student next() {
+            Student nextStudent;
 
-            return null;
+            if(list == null) {
+                nextStudent = null;
+            }else {
+                nextStudent = list.getStudent();
+
+                if(list.getNext() != null)
+                    list = list.getNext();
+                else
+                    list = null;
+                index++;
+            }
+            return nextStudent;
         }
     }
 
