@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb342f3c-b3bc-4ea1-98e5-7496607c0c20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/uaslp/enginering/labs/list/LinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/uaslp/enginering/labs/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uaslp/enginering/labs/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/uaslp/enginering/labs/list/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uaslp/enginering/labs/list/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/uaslp/enginering/labs/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uaslp/enginering/labs/model/Student.java" afterDir="false" />
@@ -40,8 +39,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="ProjectId" id="1hqoxZ3eZrh3BUTCDQUXsq06d3B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -58,6 +59,96 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\teaching\uaslp\2020-B\labs\list-students\gustavo-angel\exercise-linked-list" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.LinkedListTest">
+    <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exercise-linked-list" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uaslp.enginering.labs.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uaslp.enginering.labs.list" />
+      <option name="MAIN_CLASS_NAME" value="uaslp.enginering.labs.list.LinkedListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.givenAListWith3Elements_whenInsertAtBeginningAfter_thenElementIsInserted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exercise-linked-list" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uaslp.enginering.labs.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uaslp.enginering.labs.list" />
+      <option name="MAIN_CLASS_NAME" value="uaslp.enginering.labs.list.LinkedListTest" />
+      <option name="METHOD_NAME" value="givenAListWith3Elements_whenInsertAtBeginningAfter_thenElementIsInserted" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.givenAListWith3Elements_whenInsertAtBeginningBefore_thenElementIsInserted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exercise-linked-list" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uaslp.enginering.labs.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uaslp.enginering.labs.list" />
+      <option name="MAIN_CLASS_NAME" value="uaslp.enginering.labs.list.LinkedListTest" />
+      <option name="METHOD_NAME" value="givenAListWith3Elements_whenInsertAtBeginningBefore_thenElementIsInserted" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.givenEmptyList_whenGetIterator_thenIteratorIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exercise-linked-list" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uaslp.enginering.labs.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uaslp.enginering.labs.list" />
+      <option name="MAIN_CLASS_NAME" value="uaslp.enginering.labs.list.LinkedListTest" />
+      <option name="METHOD_NAME" value="givenEmptyList_whenGetIterator_thenIteratorIsEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.givenListWithOneElement_whenGetIterator_thenIteratorHasOneNext" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exercise-linked-list" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uaslp.enginering.labs.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uaslp.enginering.labs.list" />
+      <option name="MAIN_CLASS_NAME" value="uaslp.enginering.labs.list.LinkedListTest" />
+      <option name="METHOD_NAME" value="givenListWithOneElement_whenGetIterator_thenIteratorHasOneNext" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LinkedListTest" />
+        <item itemvalue="JUnit.LinkedListTest.givenAListWith3Elements_whenInsertAtBeginningAfter_thenElementIsInserted" />
+        <item itemvalue="JUnit.LinkedListTest.givenAListWith3Elements_whenInsertAtBeginningBefore_thenElementIsInserted" />
+        <item itemvalue="JUnit.LinkedListTest.givenListWithOneElement_whenGetIterator_thenIteratorHasOneNext" />
+        <item itemvalue="JUnit.LinkedListTest.givenEmptyList_whenGetIterator_thenIteratorIsEmpty" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -83,6 +174,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1600849305598">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1600849305598" />
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1600749244122">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -91,9 +186,63 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.186.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1600749208866" />
+    <state width="1323" height="347" key="GridCell.Tab.0.bottom" timestamp="1600897938812">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="347" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600897938812" />
+    <state width="1323" height="347" key="GridCell.Tab.0.center" timestamp="1600897938812">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="347" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600897938812" />
+    <state width="1323" height="347" key="GridCell.Tab.0.left" timestamp="1600897938812">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="347" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600897938812" />
+    <state width="1323" height="347" key="GridCell.Tab.0.right" timestamp="1600897938812">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="347" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600897938812" />
+    <state width="1323" height="323" key="GridCell.Tab.1.bottom" timestamp="1600894041080">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="323" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600894041080" />
+    <state width="1323" height="323" key="GridCell.Tab.1.center" timestamp="1600894041080">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="323" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1600894041080" />
+    <state width="1323" height="323" key="GridCell.Tab.1.left" timestamp="1600894041080">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="323" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1600894041080" />
+    <state width="1323" height="323" key="GridCell.Tab.1.right" timestamp="1600894041080">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="323" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1600894041080" />
     <state x="664" y="412" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1600748276938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="664" y="412" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/1920.186.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1600748276938" />
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600837871297">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1600837871297" />
+    <state x="228" y="99" width="909" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1600890917269">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="228" y="99" width="909" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1600890917269" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1600892480269">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1600892480269" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

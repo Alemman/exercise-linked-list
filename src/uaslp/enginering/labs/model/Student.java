@@ -14,4 +14,13 @@ public class Student {
     public void setName(String name) {
         this.name = name;
     }
+
+    public boolean equals(Student obj) {
+        if (!(obj instanceof Student)) {
+            return false;
+        }
+        Student otherStudent = (Student) obj;
+
+        return this.name.equals(otherStudent.name);
+    }
 }
