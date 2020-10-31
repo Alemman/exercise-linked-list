@@ -1,8 +1,8 @@
-package uaslp.enginering.labs.list;
+package list;
 
 import org.junit.jupiter.api.Test;
+import uaslp.enginering.labs.list.LinkedList;
 import uaslp.enginering.labs.model.Student;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 public class LinkedListTest {
